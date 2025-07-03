@@ -1,0 +1,118 @@
+.projectsContainer {
+    margin-top: 5rem;
+    padding: 2rem;
+    font-family: Verdana, sans-serif;
+}
+
+.projectsContainer h1 {
+    font-size: 5rem;
+    margin-bottom: 2rem;
+    color: rgb(255, 217, 0);
+    text-shadow: 0 0 7px rgb(199, 196, 0);
+}
+
+.projectsP {
+    width: 70%;
+    margin-bottom: 4rem;
+}
+
+.projectsP p {
+    font-size: 1.5rem;
+    color: white;
+    width: 90%;
+}
+
+.projectsContent {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.sliderContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+    bottom: 5rem;
+}
+
+.sliderContainer button {
+    font-size: 3rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    transition: text-shadow 0.2s ease;
+    user-select: none;
+    padding: 0 0.2rem;
+}
+
+.sliderContainer button:hover {
+    text-shadow: 0 0 5px white;
+}
+
+#slider {
+    border-radius: 1.5rem;
+    width: 25rem;
+    height: 18rem;
+    overflow: hidden;
+    position: relative;
+}
+
+#slider a {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#slider a.active {
+    display: block;
+}
+
+#slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .projectsContainer h1 {
+        font-size: 3rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .projectsP {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .projectsP p {
+        font-size: 1.2rem;
+        width: 100%;
+    }
+
+    .projectsContent {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sliderContainer {
+        width: 100%;
+        bottom: 0;
+    }
+
+    #slider {
+        width: 100%;
+        max-width: 350px;
+        height: 14rem;
+    }
+
+    .sliderContainer button {
+        font-size: 2rem;
+    }
+}

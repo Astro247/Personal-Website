@@ -1,0 +1,116 @@
+.skillsContainer {
+    margin-top: 5rem;
+    padding: 2rem;
+    font-family: Verdana, sans-serif;
+    margin-bottom: 6rem;
+}
+
+.skillsContainer h1 {
+    font-size: 5rem;
+    margin-bottom: 2rem;
+    color: rgb(255, 217, 0);
+    text-shadow: 0 0 7px rgb(199, 196, 0);
+}
+
+.skillsP {
+    width: 70%;
+    font-family: Verdana, sans-serif;
+}
+
+.skillsP p {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.imagesScroll {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.imageContainer {
+    margin-top: 3rem;
+    width: 5rem;
+    height: 5rem;
+    transition: filter 0.2s ease;
+}
+
+.imageContainer img {
+    width: 4rem;
+    height: 4rem;
+    object-fit: contain;
+}
+
+#html:hover {
+    filter: drop-shadow(0 0 10px rgb(187, 100, 0));
+}
+
+#css:hover {
+    filter: drop-shadow(0 0 10px rgb(0, 103, 187));
+}
+
+#js:hover {
+    filter: drop-shadow(0 0 10px rgb(187, 168, 0));
+}
+
+#py:hover {
+    filter: drop-shadow(0 0 10px rgb(0, 165, 187));
+}
+
+#sql:hover {
+    filter: drop-shadow(0 0 10px rgb(0, 34, 187));
+}
+
+#flask:hover {
+    filter: drop-shadow(0 0 10px rgb(190, 190, 190));
+}
+
+#numpy:hover {
+    filter: drop-shadow(0 0 10px rgb(0, 75, 187));
+}
+
+#pandas:hover {
+    filter: drop-shadow(0 0 10px rgb(78, 46, 194));
+}
+
+#matplotlib:hover {
+    filter: drop-shadow(0 0 10px rgb(196, 196, 196));
+}
+
+#tkinter:hover {
+    filter: drop-shadow(0 0 10px rgb(168, 168, 168));
+}
+
+@media (max-width: 768px) {
+    .skillsContainer h1 {
+        font-size: 3rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .skillsP {
+        width: 100%;
+    }
+
+    .skillsP p {
+        font-size: 1.2rem;
+    }
+
+    .imagesScroll {
+        justify-content: flex-start;
+        gap: 1rem;
+    }
+
+    .imageContainer {
+        width: 4rem;
+        height: 4rem;
+        margin-top: 2rem;
+    }
+
+    .imageContainer img {
+        width: 3rem;
+        height: 3rem;
+    }
+}

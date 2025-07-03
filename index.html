@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            overflow-x: hidden;
+        }
+
+        hr {
+            width: 98%;
+        }
+    </style>
+
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="css/contacts.css">
+    <title>Manuel</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="gitImage">
+            <a href="https://github.com/Astro247">
+                <img src="images/github.png" alt="GitHub">
+            </a>
+        </div>
+        <div class="navbarElements">
+            <a class="nav-link about" href="#about">ABOUT</a>
+            <a class="nav-link skills" href="#skills">SKILLS</a>
+            <a class="nav-link projects" href="#projects">PROJECTS</a>
+            <a class="nav-link contacts" href="#contacts">CONTACTS</a>
+        </div>
+    </div>
+
+    <div class="aboutContainer" id="about">
+        <h1>About</h1>
+        <h2>Full-Stack Developer</h2>
+        <div class="aboutP">
+            <p>I'm Manuel, a self-taught programmer who, with determination and passion, has developed solid skills
+                across multiple areas of development, from back-end systems to front-end interfaces. I enjoy creating
+                complete, well-structured applications and continuously expanding my knowledge.</p>
+        </div>
+    </div>
+    <hr>
+    <div class="skillsContainer" id="skills">
+        <h1>Skills</h1>
+        <div class="skillsP">
+            <p>I have experience developing back-end systems with Flask, creating front-end interfaces using HTML, CSS,
+                and JavaScript, writing and optimizing SQL queries for relational databases, and working with Python
+                libraries for data analysis and visualization, including pandas, NumPy, and Matplotlib.</p>
+        </div>
+        <div class="imagesScroll">
+            <div class="imageContainer" id="html">
+                <img src="images/html.png" alt="HTML">
+            </div>
+            <div class="imageContainer" id="css">
+                <img src="images/css.png" alt="CSS">
+            </div>
+            <div class="imageContainer" id="js">
+                <img src="images/js.png" alt="JavaScript">
+            </div>
+            <div class="imageContainer" id="py">
+                <img src="images/python.png" alt="Python">
+            </div>
+            <div class="imageContainer" id="sql">
+                <img src="images/sql.png" alt="SQL">
+            </div>
+            <div class="imageContainer" id="flask">
+                <img src="images/flask.png" alt="Flask">
+            </div>
+            <div class="imageContainer" id="numpy">
+                <img src="images/numpy.png" alt="NumPy">
+            </div>
+            <div class="imageContainer" id="pandas">
+                <img src="images/pandas.png" alt="Pandas">
+            </div>
+            <div class="imageContainer" id="matplotlib">
+                <img src="images/matplotlib.png" alt="Matplotlib">
+            </div>
+            <div class="imageContainer" id="tkinter">
+                <img src="images/tkinter.png" alt="Tkinter">
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="projectsContainer" id="projects">
+        <h1>Projects</h1>
+        <div class="projectsContent">
+            <div class="projectsP">
+                <p>
+                    Over time, I have developed numerous projects, all of which can be explored directly on my GitHub
+                    page. Feel free to browse through my work to see the range and depth of my experience.
+                </p>
+            </div>
+            <div class="sliderContainer">
+                <button id="prev">‹</button>
+                <div id="slider">
+                    <a href="https://encodium-project.fly.dev"><img src="images/bg/encodiumImage.PNG" alt="1"></a>
+                    <a href="https://textopia-project.fly.dev/"><img src="images/bg/textopiaImage.PNG" alt="2"></a>
+                    <a href="https://namek-codex-project.fly.dev/"><img src="images/bg/namekcodexImage.PNG" alt="3"></a>
+                </div>
+                <button id="next">›</button>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="contactsContainer" id="contacts">
+        <h1>Contacts</h1>
+        <div class="contactsInfoContainer">
+            <div class="contactsInfo">
+                <div class="contactsParts">
+                    <div class="imagesContainer">
+                        <img src="images/contactsimages/linkedin.png">
+                    </div>
+                    <a href="https://www.linkedin.com/in/manuel-sarti-9b2489282/">Linkedin Profile</a>
+                </div>
+            </div>
+            <div class="contactsInfo">
+                <div class="contactsParts">
+                    <div class="imagesContainer">
+                        <img src="images/contactsimages/gmail.png">
+                    </div>
+                    <a>manuel-sarti37@gmail.com</a>
+                </div>
+            </div>
+            <div class="contactsInfo">
+                <div class="contactsParts">
+                    <div class="imagesContainer">
+                        <img src="images/contactsimages/phone.png">
+                    </div>
+                    <a>+39 3703177499</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="projects.js"></script>
+</body>
+
+</html>
