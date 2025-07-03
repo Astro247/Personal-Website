@@ -29,6 +29,21 @@
 
 @media (max-width: 768px) {
     .aboutContainer {
-        margin-top: 12rem;
+        margin-top: 14rem;
+    }
+
+    .aboutContainer h1 {
+        font-size: 3rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .aboutP {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .aboutP p {
+        font-size: 1.2rem;
+        width: 100%;
     }
 }
